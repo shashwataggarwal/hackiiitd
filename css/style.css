@@ -5,7 +5,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Overpass Mono', monospace;
 }
 
 a {
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -109,7 +109,7 @@ h6 {
   height: 5px;
   background: #22bbf8;
   bottom: 0;
-  left: calc(50% - 25px);
+  left: calc(50% - 30px);
 }
 
 .section-header h2 {
@@ -161,7 +161,7 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -236,7 +236,7 @@ h6 {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: FontAwesome;
+  font-family: 'Overpass Mono', monospace;
   font-style: normal;
   font-weight: normal;
 }
@@ -259,7 +259,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -502,9 +502,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
+
+
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -599,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -883,8 +885,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item p {
   font-style: italic;
+  letter-spacing: -1px;
+  word-spacing: -2px;
   color: #152b79;
   margin-bottom: 0;
+}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-54 { font-size: 54px; }
+
+#schedule .schedule-item-icon {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  float: left;
+  margin: 0 10px 10px 0;
 }
 
 /*--------------------------------------------------------------
@@ -906,7 +923,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../img/iiitd.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -915,7 +932,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue .venue-info:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(9, 14, 29, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1121,7 +1138,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -1410,7 +1427,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   font-weight: 700;
   color: #fff;
 }
@@ -1424,7 +1441,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   color: #fff;
 }
 
