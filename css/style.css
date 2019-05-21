@@ -65,7 +65,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #22BBF8;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -107,7 +107,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #22bbf8;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -511,7 +511,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  /*color: #22BBF8;*/
+  background: linear-gradient(to right, #9A3D72 0%, #2FA9AB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 5px
 }
 
 #intro p {
@@ -608,11 +612,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #22BBF8;
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: #22BBF8;
   color: #fff;
 }
 
@@ -816,7 +820,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: #22bbf8;
   color: #fff;
 }
 
@@ -1605,7 +1609,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro h1 {
-    font-size: 34px;
+    font-size: 58px;
   }
 
   #intro p {
@@ -1653,4 +1657,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+}
+.esya{
+  color: #7c8186;
+
 }
