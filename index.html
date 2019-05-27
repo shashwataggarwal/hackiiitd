@@ -30,6 +30,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <link rel="manifest" href="/manifest.json">
+  <!-- <meta name="theme-color" content="#317EFB"/> -->
+
   <!-- =======================================================
     Theme Name: TheEvent
     Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
@@ -80,7 +83,7 @@
       <p class="mb-4 pb-0">23-24 August | IIIT-Delhi</p>
       <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a> -->
-      <a href="#about" class="about-btn scrollto">About</a>
+      <a href="#buy-tickets" class="about-btn scrollto">Register</a>
     </div>
   </section>
 
@@ -296,107 +299,146 @@
         <div class="tab-content row justify-content-center">
 
           <!-- Schdule Day 1 -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+        <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>9:00 - 11:30 AM</time></div>
               <div class="col-md-10">
-                <div class="schedule-item-icon">
-                  <i class="material-icons md-54">how_to_reg</i>
+                    <div class="row">
+                        <div class="col-2 schedule-item-icon">
+                            <!-- icon -->
+                            <i class="material-icons md-54">how_to_reg</i>
+                        </div>
+                        <div class="col-9">
+                            <h4>Registration</h4>
+                            <p>On-site registration for the qualified teams where each team will be given a unique ID on
+                            the HackIIITD Web App for future identification.
+                            </p>
+                        </div>
+                    </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2"><time>12 Noon</time></div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-2 schedule-item-icon">
+                            <i class="material-icons md-54">event</i>
+                        </div>
+                        <div class="col-9">
+                            <h4>Event Opening</h4>
+                            <p>Introduction to organisers, mentors, judges and the Hack Web App.</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>Registration</h4>
-                  <p>On-site registration for the qualified teams where each team will be given a unique ID on
-                  the HackIIITD Web App for future identification.
-                  </p>
-              </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12 Noon</time></div>
-              <div class="col-md-10">
-                <div class="schedule-item-icon">
-                  <i class="material-icons md-54">event</i>
+                <div class="col-md-2"><time>1:00 - 2:00 PM</time></div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-2 schedule-item-icon">
+                            <i class="material-icons md-54">fastfood</i>
+                        </div>
+                        <div class="col-9">
+                            <h4>Lunch</h4>
+                            <p>Lunch by catering services.</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>Event Opening</h4>
-                <p>Introduction to organisers, mentors, judges and the Hack Web App.</p>
-              </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>1:00 - 2:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="schedule-item-icon">
-                  <i class="material-icons md-54">fastfood</i>
+                <div class="col-md-2"><time>2:00 PM</time></div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-2 schedule-item-icon">
+                            <i class="material-icons md-54">code</i>
+                        </div>
+                        <div class="col-9">
+                            <h4>Hack Begins</h4>
+                            <p>Start brainstorm, implement ideas, code the application.</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>Lunch</h4>
-                <p>Lunch by catering services.</p>
-              </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>2:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="schedule-item-icon">
-                    <i class="material-icons md-54">code</i>
-                  </div>
-                <h4>Hack Begins</h4>
-                <p>Start brainstorm, implement ideas, code the application.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>3:00 - 4:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="schedule-item-icon">
-                    <i class="material-icons md-54">wb_incandescent</i>
-                  </div>
-                <h4>Idea Submission</h4>
-                <p>Participants will be required to submit the idea they’ve finalised and will be working on
-                for the rest of the hackathon.
-                </p>
-              </div>
+                <div class="col-md-2"><time>3:00 - 4:00 PM</time></div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-2 schedule-item-icon">
+                            <i class="material-icons md-54">wb_incandescent</i>
+                        </div>
+                        <div class="col-9">
+                            <h4>Idea Submission</h4>
+                            <p>Participants will be required to submit the idea they’ve finalised and will be working on
+                            for the rest of the hackathon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>8:00 - 9:30 PM</time></div>
               <div class="col-md-10">
-                <div class="schedule-item-icon">
+                <div class="row">
+
+                <div class="col-2 schedule-item-icon">
                     <i class="material-icons md-54">local_dining</i>
                   </div>
+                  <div class="col-9 ">
+
                 <h4>Dinner</h4>
                 <p>Dinner by catering services/campus mess</p>
               </div>
+                </div>
+                </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:00 PM</time></div>
               <div class="col-md-10">
-                <div class="schedule-item-icon">
+                <div class="row">
+
+                <div class="col-2 schedule-item-icon">
+                
                     <i class="material-icons md-54">assignment_turned_in</i>
                   </div>
+                  <div class="col-9">
                 <h4>Evaluation <span>Round 1</span></h4>
                 <p>Participants will be required to present the progress on their final application and
                 how/what they plan to do for the rest of the remaining time. Top 40 teams will qualify for
                 the next round of evaluation.
                 </p>
-              </div>
+                </div>
+                </div>
+                </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 midnight - 1:00 AM</time></div>
-              <div class="col-md-10">
-                <div class="schedule-item-icon">
-                    <i class="material-icons md-54">music_note</i>
-                  </div>
+                <div class="col-md-2"><time>12:00 midnight - 1:00 AM</time></div>
+                <div class="col-md-10">
+                <div class="row">
+
+                <div class="col-2 schedule-item-icon">
+                <i class="material-icons md-54">music_note</i>
+                </div>
+                <div class="col-9">
                 <h4>Music Session</h4>
                 <p>Participants can use the Hack Web App and enqueue the songs on their room’s playlist.
                 The music will be played on the speakers in the room.
 
                 </p>
-              </div>
+                </div>
+
+                </div>
+                </div>
             </div>
-          </div>
-          <!-- End Schdule Day 1 -->
+        <!-- End Schdule Day 1 -->
+        </div>
 
           <!-- Schdule Day 2 -->
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
@@ -404,25 +446,34 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>8:00 - 9:00 AM</time></div>
               <div class="col-md-10">
-                <div class="schedule-item-icon">
+                <div class="row">
+
+                <div class="col-2 col-sm-2 schedule-item-icon">
                     <i class="material-icons md-54">free_breakfast</i>
                   </div>
+                  <div class="col-9 col-sm-10">
                 <h4>Breakfast</h4>
                 <p>Breakfast by catering services/campus mess.</p>
               </div>
+          </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>9:00 AM</time></div>
               <div class="col-md-10">
+                <div class="row">
+
                 <div class="schedule-item-icon">
                     <i class="material-icons md-54">assignment_turned_in</i>
                   </div>
+                  <div class="col-9 col-sm-10">
+
                 <h4>Evaluation <span>Round 2</span></h4>
                 <p>Final round of evaluation. Top 13 teams will qualify for final pitch. 2 wilcard enteries will
                   be selected by the mentors for final pitch.
                 </p>
               </div>
+          </div>
             </div>
 
             <div class="row schedule-item">
@@ -740,7 +791,7 @@
         <a href="img/gallery/pic (3).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (3).jpg" alt=""></a>
         <a href="img/gallery/pic (4).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (4).jpg" alt=""></a>
         <a href="img/gallery/pic (5).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (5).jpg" alt=""></a>
-        <a href="img/gallery/pic (6).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (6).jpg" alt=""></a>
+<!--         <a href="img/gallery/pic (6).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (6).jpg" alt=""></a>
         <a href="img/gallery/pic (7).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (7).jpg" alt=""></a>
         <a href="img/gallery/pic (8).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (8).jpg" alt=""></a>
         <a href="img/gallery/pic (9).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (9).jpg" alt=""></a>
@@ -748,7 +799,7 @@
         <a href="img/gallery/pic (11).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (11).jpg" alt=""></a>
         <a href="img/gallery/pic (12).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (12).jpg" alt=""></a>
         <a href="img/gallery/pic (13).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (13).jpg" alt=""></a>
-        <a href="img/gallery/pic (14).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (14).jpg" alt=""></a>
+        <a href="img/gallery/pic (14).jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/pic (14).jpg" alt=""></a> -->
 
 
       </div>
@@ -937,77 +988,148 @@
           <h2>Contact Us</h2>
           <p>Feel free to contact hackathon organisers for any other queries.</p>
         </div>
-        
-        <div class = 'row event-head'>
-          <div class='col-md-6'>
-            <div>
-              <img src="img/event-heads/jha.png" class="head img-fluid">
+        <style type="text/css">
+                .contact-icons{
+                    background-color: #0e1b4d;
+                    padding: 6px;
+                    border-radius: 100px;
+                    color: white;
+                    font-size: 14px;
+                }
+                .card-text{
+                    white-space: nowrap;
+                }
+            </style>
+
+
+         
+
+        <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img src="img/event-heads/jha.png" class="card-img-top" alt="Abhimanyu">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0">Abhimanyu Jha</h5>
+                  <div class="card-text text-black-50">
+                    abhimanyu17126@iiitd.ac.in</div>
+                  <div class="card-text text-black-50">
+                  9990038337
+                  </div>
+                  <div class="card-text text-black-50">
+                    <a href = "mailto: abhimanyu17126@iiitd.ac.in<"><i class="material-icons contact-icons">email</i></a>
+                      
+                  <a href="tel:+9990038337"><i class="material-icons contact-icons">phone</i></a>
+
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4>Abhimanyu Jha</h4>
-            <p>Email: abhimanyu2017126@iiitd.ac.in<br>
-              Phone: +91 9990038337
-            </p>
-          </div>
-          
-          <div class='col-md-6'>
-            <div>
-              <img src="img/event-heads/amandeep.png" class="head img-fluid">
+            <!-- Team Member 2 -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img src="img/event-heads/amandeep.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0">Amandeep Kaur</h5>
+                  <div class="card-text text-black-50">
+                    amandeep18014@iiitd.ac.in</div>
+                  <div class="card-text text-black-50">
+                  9634202204
+                  </div>
+                  <div class="card-text text-black-50">
+                  <a href = "mailto: amandeep18014@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
+                  <a href="tel:+9634202204"><i class="material-icons contact-icons">phone</i></a>
+
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4>Amandeep Kaur</h4>
-            <p>Email: amandeep18014@iiitd.ac.in<br>
-              Phone: +91 9634202204
-            </p>
-          </div>
+            <!-- Team Member 3 -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img src="img/event-heads/ria.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0">ria18405@iiitd.ac.in</h5>
+                  <div class="card-text text-black-50">
+                    Ria Gupta</div>
+                  <div class="card-text text-black-50">
+                  9891142167
+                  </div>
+                  <div class="card-text text-black-50">
+                    <a href = "mailto: ria18405@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
+                      
+                  <a href="tel:+9891142167"><i class="material-icons contact-icons">phone</i></a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+        <div class="row">
+            <!-- Team Member 4 -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img src="img/event-heads/shashwat.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0">Shashwat Aggarwal</h5>
+                  <div class="card-text text-black-50">
+                   shashwat18097@iiitd.ac.in</div>
+                  <div class="card-text text-black-50">
+                  8860085903
+                  </div>
+                  <div class="card-text text-black-50">
+                    <a href = "mailto: shashwat18097@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
+                      
+                  <a href="tel:+8860085903"><i class="material-icons contact-icons">phone</i></a>
 
-        <div class = 'row event-head'>
-          <div class='col-md-6'>
-            <div>
-              <img src="img/event-heads/ria.png" class="head img-fluid">
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4>Ria Gupta</h4>
-            <p>Email: ria18405@iiitd.ac.in<br>
-              Phone: +91 9891142167
-            </p>
-          </div>
-          
-          <div class='col-md-6'>
-            <div>
-              <img src="img/event-heads/shashwat.png" class="head img-fluid">
+            <!-- Team Member 5 -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img src="img/event-heads/sidhant.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0">Sidhant S Sarkar</h5>
+                  <div class="card-text text-black-50">
+                    sidhant18102@iiitd.ac.in</div>
+                  <div class="card-text text-black-50">
+                  9810556335
+                  </div>
+                  <div class="card-text text-black-50">
+                    <a href = "mailto: sidhant18102@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
+                      
+                  <a href="tel:+9810556335"><i class="material-icons contact-icons">phone</i></a>
+
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4>Shashwat Aggarwal</h4>
-            <p>Email: shashwat18097@iiitd.ac.in<br>
-              Phone: +91 8860085903
-            </p>
-          </div>
+            <!-- Team Member 6 -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img src="img/event-heads/ujjwal.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0">Ujjwal Singh</h5>
+                  <div class="card-text text-black-50">
+                    ujjwal18113@iiitd.ac.in</div>
+                  <div class="card-text text-black-50">
+                  9811580659
+                  </div>
+                  <div class="card-text text-black-50">
+                    <a href = "mailto: ujjwal18113@iiitd.ac.in"><i class="material-icons contact-icons">email</i></a>
+                      
+                  <a href="tel:+9811580659"><i class="material-icons contact-icons">phone</i></a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
-
-        <div class = 'row event-head'>
-          <div class='col-md-6'>
-            <div>
-              <img src="img/event-heads/sidhant.png" class="head img-fluid">
-            </div>
-            <h4>Sidhant S Sarkar</h4>
-            <p>Email: sidhant18102@iiitd.ac.in<br>
-              Phone: +91 9810556335
-            </p>
-          </div>
-          
-          <div class='col-md-6'>
-            <div>
-              <img src="img/event-heads/ujjwal.png" class="head img-fluid">
-            </div>
-            <h4>Ujjwal Singh</h4>
-            <p>Email: ujjwal18113@iiitd.ac.in<br>
-              Phone: +91 9811580659
-            </p>
-          </div>
-        </div>
-
-
 
       </div>
-    </section><!-- #contact -->
+    </section>
 
   </main>
 
@@ -1038,18 +1160,18 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-contact">
-            <h4>Contact Esya</h4>
+            <h4>Address</h4>
             <p>
               Indraprastha Institute of Information Technology Delhi <br>
               Okhla Industrial Estate,Phase III<br>
               (Near Govind Puri Metro Station)<br>
               New Delhi, India - 110020<br>
-              <strong>Email:</strong> hackiiitd19@gmail.com<br>
+              <!-- <strong>Email:</strong> hackiiitd19@gmail.com<br> -->
             </p>
 
             <div class="social-links">
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/events/350217859008741/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/esya_iiitd/" class="instagram"><i class="fa fa-instagram"></i></a>
             </div>
 
           </div>
@@ -1081,8 +1203,6 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/canvas/bg-anim.js"></script>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
