@@ -1465,6 +1465,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+#contact .contact-icons{
+  background-color: #0e1b4d;
+  padding: 6px;
+  border-radius: 100px;
+  color: white;
+  font-size: 14px;
+}
+#contact .card-text{
+  white-space: nowrap;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
