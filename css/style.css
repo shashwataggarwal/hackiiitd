@@ -1465,13 +1465,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
-#contact .contact-icons{
-  background-color: #0e1b4d;
-  padding: 6px;
-  border-radius: 100px;
-  color: white;
-  font-size: 14px;
-}
+
 #contact .card-text{
   white-space: nowrap;
 }
@@ -1752,4 +1746,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 .esya{
   color: #7c8186;
 
+}
+
+#contact .contact-icons{
+  background-color: #0e1b4d;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  border-radius: 100px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 6px;
+  color: white;
+  line-height: 1;
+  font-size: 14px;
+}
+
+#mentors {
+  padding: 60px 0;
+}
+
+#mentors .contact-icons{
+  background-color: #0e1b4d;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  border-radius: 100px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 6px;
+  color: white;
+  line-height: 1;
+  font-size: 14px;
 }
